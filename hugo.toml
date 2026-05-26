@@ -1,0 +1,13 @@
+baseURL = "http://localhost:1313/"
+locale = "zh-CN"
+title = "Steve 的博客"
+theme = "tailbliss"
+
+# 必须开启，否则主题的动态功能无法正常加载
+buildDrafts = true
+
+[params]
+  # 基础个人信息
+  author = "Steve"
+  description = "我的个人学习与技术博客"
+
