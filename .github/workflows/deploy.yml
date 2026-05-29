@@ -1,28 +1,31 @@
-name: Deploy Hugo
+name: pages build and deployment
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: false
+          submodules: true
           fetch-depth: 0
 
-      - uses: peaceiris/actions-hugo@v3
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.161.1' # 和你本地版本保持一致
           extended: true
 
-      - run: hugo --minify
+      - name: Build
+        run: hugo --baseURL "https://steven2007yhq.github.io/" --minify
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          external_repository: Steven2007yhq/Steven2007yhq.github.io
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: main
