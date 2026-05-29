@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>随笔 on Steve 的博客</title>
-    <link>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</link>
+    <link>https://steven2007yhq.github.io/repo/categories/%E9%9A%8F%E7%AC%94/</link>
     <description>Recent content in 随笔 on Steve 的博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 26 May 2026 23:53:53 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://steven2007yhq.github.io/repo/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello blog world</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://steven2007yhq.github.io/repo/posts/hello-world/</link>
       <pubDate>Tue, 26 May 2026 23:53:53 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://steven2007yhq.github.io/repo/posts/hello-world/</guid>
       <description>&lt;h2 id=&#34;这是我的第一个博客文章&#34;&gt;这是我的第一个博客文章&lt;/h2&gt;&#xA;&lt;p&gt;hello hugo!&lt;/p&gt;</description>
     </item>
   </channel>

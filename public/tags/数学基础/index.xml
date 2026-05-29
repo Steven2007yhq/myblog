@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数学基础 on Steve 的博客</title>
+    <link>https://steven2007yhq.github.io/repo/tags/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
+    <description>Recent content in 数学基础 on Steve 的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://steven2007yhq.github.io/repo/tags/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSAI_math_foundation : Generalized Inverse Matrices(广义逆矩阵)</title>
+      <link>https://steven2007yhq.github.io/repo/posts/csai_math_foundation1/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://steven2007yhq.github.io/repo/posts/csai_math_foundation1/</guid>
+      <description>&lt;h1 id=&#34;csai_math_foundation--generalized-inverse-matrices广义逆矩阵&#34;&gt;CSAI_math_foundation : Generalized Inverse Matrices(广义逆矩阵)&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;广义逆矩阵&#34;&gt;广义逆矩阵&lt;/h2&gt;&#xA;&lt;p&gt;满足$LA=I$,但不满足$AL=I$的矩阵$L$称为矩阵$A$的左逆矩阵(n&amp;gt;=m possible)，反之有右逆矩阵(n&amp;lt;=m possible).&lt;/p&gt;&#xA;&lt;p&gt;考查 $n&amp;gt;m$ 且 $A$ 具有满列秩 ($\text{rank } A = m$) 的情况。此时，$m \times m$ 矩阵 $A^T A$ 是可逆的，容易验证 $L = (A^T A)^{-1} A^T$ 满足 $LA = I$，这种左逆矩阵是唯一确定的，常称为&lt;strong&gt;左伪逆矩阵&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;考查 $n&amp;lt;m$ 且 $A$ 具有满行秩 ($\text{rank } A = n$) 的情况。此时，$n \times n$ 矩阵 $AA^T$ 是可逆的，容易验证 $R = A^T (AA^T)^{-1}$ 满足 $AR = I$，这种右逆矩阵是唯一确定的，常称为&lt;strong&gt;右伪逆矩阵&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;考虑一个 $n \times m$ 维的秩亏缺矩阵 $A$，满足 $\text{rank}(A) &amp;lt; \min{m, n}$。&#xA;$n \times m$ 维秩亏缺矩阵的逆矩阵称为&lt;strong&gt;广义逆矩阵&lt;/strong&gt;，它是一个 $m \times n$ 矩阵。令 $A^-$ 表示 $A$ 的广义逆矩阵。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
